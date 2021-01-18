@@ -212,7 +212,7 @@ function renderChart() {
   });
 };
 
-var prodFromLS = localStorage.getItem('products');
+/*var prodFromLS = localStorage.getItem('products');
 var parsedProducts = JSON.parse(prodFromLS);
 
 if(parsedProducts !== null) {
@@ -240,6 +240,6 @@ if(parsedProducts !== null) {
   new Product(0, 'Tentacle USB', 'img/usb.gif', 0);
   new Product(0, 'Not a Watering Can', 'img/water-can.jpg', 0);
   new Product(0, 'Egg Wine Glass', 'img/wine-glass.jpg', 0);
-}
+}*/
 
 displayProducts();
